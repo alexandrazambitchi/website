@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="moda">
+    <meta name="keywords" content="adidasi, genti, piele, stil">
+    <meta name="author" content="John Doe">
+    <link rel="stylesheet" href="stilizare5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <base href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/proiect.html#" target="_blank">
+  </head>
+  <body>
+    <script src="script5.js"></script>
+    <header>
+      <img id="sigla" src="sigla.png" alt="Imagine lipsa">
+      <h3>Bine ati venit la magazinul POSH!</h3>
+      <p id="rel">Contact</p>
+    </header>
+    <nav class="meniu">
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="btn"><a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/proiect.html#"><i class="fa fa-home"></i></a></button>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn"><a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/geanta.html">Genti</a></button>
+          <div class="dropdown-content">
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/geanta.html">De zi</a>
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/geanta.html">De seara</a>
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/geanta.html">Mari</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn"><a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/pantof.html">Incaltaminte</a></button>
+          <div class="dropdown-content">
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/pantof.html">Adidasi</a>
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/pantof.html">Pantofi cu toc</a>
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/pantof.html">Ghete</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn"><a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/bijuterii.html">Bijuterii</a></button>
+          <div class="dropdown-content">
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/bijuterii.html">Cercei</a>
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/bijuterii.html">Inele</a>
+            <a target="_self" href="file:///Users/alexandrazambitchi/Desktop/tehWeb/pr/bijuterii.html">Bratari</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Contact</button>
+        </div>
+      </div>
+    </nav>
+    <div class="flex">
+      <div id="harta">
+        <p>Magazinul <span style="color:#C08497">POSH</span> se gaseste pe <strong><a href="#" id="map">Str. Londra nr. 8, Bucuresti</a></strong>.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11392.03574190311!2d26.093275!3d44.453488!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f8aafe066b07%3A0x757f97740961b0e9!2sStrada%20Londra%208%2C%20Bucure%C8%99ti!5e0!3m2!1sen!2sro!4v1573923054797!5m2!1sen!2sro" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+        <p>Program magazin:</p>
+        <p>Luni - Vineri: 10:00 - 20:00</p>
+      </div>
+      <div class="poze">
+        <img src="genti.jpg" alt="Imagine lipsa">
+        <img src="pantofi.jpg" alt="Imagine lipsa">
+        <img src="bijuterii.jpg" alt="Imagine lipsa">
+      </div>
+    </div>
+    <section>
+      <p id="mouse"><i class="fa fa-car"></i></p>
+      <br>
+    </section>
+    <div>
+      <button id="rnd">Repara greseala!</button>
+      <p id="box"></p>
+    </div>
+    <p>Link catre cea mai cautata geanta: <a href="http://fmi.unibuc.ro" id="mk" name="Click aici">Click aici</a></p>
+    <h4>Istoria magazinului</h4>
+    <p id="gasit">Magazinul a aparut din dorinta de a aduce la un loc pasiunile colectionarilor de obiecte speciale din cele mai cautate obiecte vestimentare si accesorii.</p>
+    <p>Magazinul doreste sa creeze o comunitate de oameni cu pasiuni asemanatoare.</p>
+    <div>
+      <img src="sigla.png" alt="error" id="move">
+      <p>Modifica culoarea fontului. Selectati o culoare: </p>
+      <form  action="/action_page.php">
+          <input type="radio" name="color" value="#b0d0d3">Albastru deschis<br>
+          <input type="radio" name="color" value="#e6b3cc">Roz deschis<br>
+          <input type="radio" name="color" value="#c08497">Roz prafuit<br>
+          <input type="radio" name="color" value="#654c4f">Maro<br>
+          <input type="radio" name="color" value="#9da9a0">Verde prafuit<br>
+          <input type="radio" name="color" value="#ffffff">Alb<br>
+          <input type="submit" id="button" value="Am ales!">
+      </form>
+      <form  action="/action_page.php">
+        <input type="text" id="tagName" value="p"><br>
+      </form>
+    </div>
+    <p>Click Brand:</p>
+    <div id="stop">
+      <div id="div2">Model
+        <div id="div1">Brand</div>
+      </div>
+    </div>
+    Opreste alertele duble:
+    <input type="checkbox" id="check">
+    <p></p>
+    <p>Apasa pentru a schimba dimensiunea unui text.</p>
+    <button id="fontChild">Click</button>
+    <br>
+    <br>
+    <div id="ad">
+      <span class="closebtn">&times;</span>
+      <p><strong>Alegeti din cea mai larga gama de produse de lux!!!</strong><br>(To close this, click on the X symbol to the right.)</p>
+    </div>
+    <br>
+    <button id="btnNode"><a href="http://localhost:7000/">Click pentru a vedea ce urmeaza</a></button>
+  </body>
+</html>

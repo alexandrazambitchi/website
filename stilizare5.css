@@ -1,0 +1,317 @@
+html
+{
+  background-image: url("fundal1.jpg");
+  color: white;
+}
+body
+{
+  width: auto;
+  height: auto;
+}
+#sigla
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+h3
+{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 25px;
+  z-index: 2;
+}
+p
+{
+  text-align: justify;
+  margin-left: 10px;
+}
+
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+#rel
+{
+  left: 20px;
+  width: 50px;
+  position: relative;
+}
+
+#mouse
+{
+  position: absolute;
+  width: 30px;
+  height: auto;
+  left: 10px;
+  top: 10px;
+  color: #c08497;
+  text-align: center;
+  z-index: 4;
+}
+
+#move
+{
+  position: absolute;
+  right: 10px;
+}
+
+#tagName
+{
+  border: solid white;
+  width: 50px;
+  height: 10px;
+}
+
+#rnd {
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: #c08497;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#button {
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: #c08497;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#btnNode {
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: #c08497;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#ad
+{
+  box-sizing: border-box;
+  padding: 16px;
+  width: 100%;
+  background-color: #e6b3cc;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.closebtn {
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: #000;
+}
+
+#fontChild
+{
+  font-size: 10px;
+  border: none;
+  outline: none;
+  background-color: #c08497;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#stop
+{
+  padding: 50px;
+  background-color: #c08497;
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+}
+
+.meniu
+{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.navbar
+{
+  overflow: hidden;
+  background-color: #000000;
+  z-index: 3;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar a
+{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  width: 20.5em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropdown .btn {
+  background-color: inherit;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-family: inherit;
+  margin: 0;
+  width: 4.3em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #c08497;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #c08497;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e6b3cc;
+  z-index: 3;
+  width: 20.5em;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #b0d0d3;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.flex
+{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+#harta
+{
+  align-self: center;
+}
+
+.flex img
+{
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes anim
+{
+  0%   {left:10px; bottom:0px;}
+  25%  {left:110px; bottom:0px;}
+  50%  {left:110px; bottom:100px;}
+  75%  {left:10px; bottom:100px;}
+  100% {left:10px; bottom:0px;}
+}
+
+@media screen and (max-width: 600px) {
+  html{
+    background-image: url("fundalM.jpg");
+    color: white;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 10.5em;
+    cursor: pointer;
+    text-align: center;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e6b3cc;
+    z-index: 3;
+    width: 10.5em;
+  }
+  .contact
+  {
+    display: inline;
+  }
+  @keyframes anim
+  {
+    0%   {left:0px; bottom:0px;}
+    25%  {left:100px; bottom:0px;}
+    50%  {left:100px; bottom:100px;}
+    75%  {left:0px; bottom:100px;}
+    100% {left:0px; bottom:0px;}
+  }
+}
